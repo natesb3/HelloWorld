@@ -8,5 +8,11 @@ def shimmy():
         left()
         time.sleep(.5)
 
+def twirl():
+    right_rot()
+    time.sleep(2)
+
+
 shimmy()
+twirl()
 stop()
